@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { TutorialService } from 'src/app/services/tutorial.service';
 import { map } from 'rxjs/operators';
 import { Tutorial } from 'src/app/models/tutorial.model';
+import { TutorialService } from 'src/app/services/tutorial.service';
 
 @Component({
   selector: 'app-tutorials-list',
